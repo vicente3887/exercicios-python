@@ -1,3 +1,5 @@
+"""Simula uma calculadora de aposentadoria (Simples)"""
+
 from datetime import datetime
 
 trabalhador = {}
