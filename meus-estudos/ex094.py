@@ -28,7 +28,7 @@ while True:
 print("="*30)
 print(f"O total de pessoas é {len(lista)}")
 media = total/len(lista)
-print(f"A Média de idade é: {media:2.5f}")
+print(f"A Média de idade é: {media:5.2f}")
 print("A lista de mulheres é: ", mulheres)
 print("A lista de pessoas com idade acima da média é: ")
 for i in lista:
