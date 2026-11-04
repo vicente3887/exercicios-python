@@ -1,9 +1,11 @@
+"""Funções para sortear e somar"""
+
 from random import randint
 
 numeros = []
 
 def sorteio(lista):
-    print("Sorteando valores pares:")
+    print("Sorteando valores:")
     for i in range (0, 5):
         n = randint(0, 10)
         numeros.append(n)
@@ -12,7 +14,7 @@ def sorteio(lista):
     
 def somaPar(lista):
     soma = 0
-    print("Somando valores:")
+    print("Somando valores pares:")
     for value in lista:
         if value % 2 ==0:
             soma += value
