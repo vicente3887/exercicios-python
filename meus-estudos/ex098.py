@@ -1,3 +1,5 @@
+"""Função de Contador"""
+
 def contador(a, b, c):
     if a < b:
         for i in range(a, b, c):
