@@ -5,5 +5,5 @@ def fatorial(num=1):
     return f
 
 
-n = int(input("Digite um numero:"))
+n = int(input("Digite um numero: "))
 print(f"O fatorial de {n} é igual a {fatorial(n)}")
